@@ -10,6 +10,10 @@
          android:icon="@drawable/baseline_search_24"
          android:title="Recherche"
          />
+     <item android:id="@+id/Messages"
+         android:icon="@drawable/baseline_comment"
+         android:title="Messages"
+         />
      <item android:id="@+id/notification"
          android:icon="@drawable/baseline_notifications_24"
          android:title="Notifications"
@@ -18,10 +22,22 @@
          android:icon="@drawable/baseline_group_add_24"
          android:title="invite"
          />
+     <item android:id="@+id/Evenements"
+         android:icon="@drawable/baseline_star_border_24"
+         android:title="Evenements"
+         />
+     <item android:id="@+id/Budget"
+         android:icon="@drawable/baseline_attach_money_24"
+         android:title="Budget"
+         />
      <item android:id="@+id/calendrier"
          android:icon="@drawable/baseline_edit_calendar_24"
          android:title="calendrier"
          tools:ignore="DuplicateIds" />
+     <item android:id="@+id/Parametre"
+         android:icon="@drawable/baseline_settings_24"
+         android:title="Parametre"
+         />
  </group>
 
 

@@ -6,13 +6,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 
-import kotlinx.coroutines.CompletionHandlerBase;
+
 
 public class MainActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint({"MissingInflatedId", "WrongViewCast"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,6 +61,11 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+
+
+
+
+
     }
 
 }

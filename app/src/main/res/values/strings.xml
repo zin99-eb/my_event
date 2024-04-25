@@ -6,4 +6,9 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
+    <string name="home">Home</string>
+    <string name="profil">Profil</string>
+    <string name="ajouer_un_v_nement">Ajouer un événement</string>
+    <string name="budget">Budget</string>
+    <string name="menu">Menu</string>
 </resources>

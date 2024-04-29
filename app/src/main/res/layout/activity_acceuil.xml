@@ -33,8 +33,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="48dp"
-            android:text="soukaina battah"
-            android:drawableLeft="@drawable/baseline_account"/>
+            android:text="@string/NOM1"
+            android:drawableLeft="@drawable/baseline_account"
+            android:drawableStart="@drawable/baseline_account" />
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -52,13 +53,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="48dp"
-        android:text="Loubna El b'zioui"
-        android:drawableLeft="@drawable/baseline_account"/>
+        android:text="@string/nom2"
+        android:drawableLeft="@drawable/baseline_account"
+        android:drawableStart="@drawable/baseline_account" />
     <TextView
         android:layout_margin="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Body text for a post. Since it’s a social app, sometimes it’s a hot take, and sometimes it’s a question."/>
+        android:text="Body text for a post. Since it’s a social app, sometimes it’s a hot take, and sometimes it’s a question."
+        tools:ignore="HardcodedText" />
 </LinearLayout>
 
     </FrameLayout>

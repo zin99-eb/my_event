@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     android:layout_width="match_parent"
     android:layout_height="200dp"
     android:padding="20dp"
     android:background="@drawable/logo"
     android:gravity="bottom">
+=======
+    android:layout_width="410dp"
+    android:layout_height="180dp"
+    android:padding="20dp"
+    android:gravity="bottom"
+    android:background="@drawable/logo"
+    >
+>>>>>>> 43a156d8168b8a6f9aedf29e1772d240b2f96287
 
 
 

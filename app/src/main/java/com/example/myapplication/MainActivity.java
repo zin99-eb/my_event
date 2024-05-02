@@ -3,11 +3,20 @@ package com.example.myapplication;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+<<<<<<< HEAD
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+=======
+import androidx.drawerlayout.widget.DrawerLayout;
+
+import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+>>>>>>> 43a156d8168b8a6f9aedf29e1772d240b2f96287
 import android.view.MenuItem;
 import android.widget.Toast;
 
@@ -29,7 +38,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+<<<<<<< HEAD
     @SuppressLint("MissingInflatedId")
+=======
+    @SuppressLint({"MissingInflatedId", "WrongViewCast"})
+>>>>>>> 43a156d8168b8a6f9aedf29e1772d240b2f96287
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +55,11 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
 
+<<<<<<< HEAD
 
+=======
+            @SuppressLint("NonConstantResourceId")
+>>>>>>> 43a156d8168b8a6f9aedf29e1772d240b2f96287
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 if (item.getItemId() == R.id.home) {
@@ -60,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+<<<<<<< HEAD
     }
 
     @Override
@@ -74,4 +92,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     }
+=======
+
+
+
+
+
+    }
+
+>>>>>>> 43a156d8168b8a6f9aedf29e1772d240b2f96287
 }

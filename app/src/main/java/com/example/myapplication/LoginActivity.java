@@ -2,7 +2,13 @@ package com.example.myapplication;
 
 
 import android.annotation.SuppressLint;
+<<<<<<< HEAD
 import android.os.Bundle;
+=======
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+>>>>>>> 43a156d8168b8a6f9aedf29e1772d240b2f96287
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;

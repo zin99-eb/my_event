@@ -4,4 +4,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#FBB13D</color>
     <color name="green">#104B4D</color>
+<<<<<<< HEAD
+=======
+    <color name="gris">#4BFFFFFF</color>
+
+
+>>>>>>> 43a156d8168b8a6f9aedf29e1772d240b2f96287
 </resources>

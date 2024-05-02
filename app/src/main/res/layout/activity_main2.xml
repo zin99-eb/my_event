@@ -5,7 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+<<<<<<< HEAD
     android:orientation="vertical">
+=======
+    android:orientation="vertical"
+    android:background="@color/white">
+>>>>>>> 43a156d8168b8a6f9aedf29e1772d240b2f96287
 
     <ImageView
         android:id="@+id/logo"

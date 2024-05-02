@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center_vertical"
     android:orientation="vertical"
+<<<<<<< HEAD
     android:padding="16dp">
 
     <ImageView
@@ -18,12 +19,32 @@
         android:scaleX="2.5"
         android:scaleY="2.5"
         android:src="@drawable/logo" />
+=======
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/bluelogisyn"
+        android:layout_width="390dp"
+        android:layout_height="180dp"
+        android:scaleX="2.3"
+        android:scaleY="2.3"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+>>>>>>> 43a156d8168b8a6f9aedf29e1772d240b2f96287
 
     <EditText
         android:id="@+id/editTextUsername"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+<<<<<<< HEAD
         android:hint="Username"
+=======
+        android:hint="@string/username"
+>>>>>>> 43a156d8168b8a6f9aedf29e1772d240b2f96287
         android:background="@drawable/background_edit_text"
         android:inputType="text" />
 
@@ -33,7 +54,11 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@drawable/background_edit_text"
+<<<<<<< HEAD
         android:hint="Password"
+=======
+        android:hint="@string/password"
+>>>>>>> 43a156d8168b8a6f9aedf29e1772d240b2f96287
         android:inputType="textPassword" />
 
     <!-- Login Button -->
@@ -42,7 +67,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/green"
+<<<<<<< HEAD
         android:text="Login" />
+=======
+        android:text="@string/login" />
+>>>>>>> 43a156d8168b8a6f9aedf29e1772d240b2f96287
 
 </LinearLayout>
 
